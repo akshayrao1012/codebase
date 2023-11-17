@@ -4,7 +4,7 @@ from datetime import datetime
 class NotepadApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Special Notepad")
+        self.root.title("Timestamp Notepad")
 
         # Text editor box
         self.text_editor = tk.Text(root, height=10, width=40)
